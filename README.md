@@ -13,5 +13,5 @@ A full-stack web application that fetches, caches, and sorts follower counts for
 - **Front-end**: React (Vite)
 - **Back-end**: Node.js (Express)
 - **Caching**: Redis
-- **API Integration**: TikTok API or third-party services
+- **API Integration**: Third party TikTok API (more at: https://github.com/davidteather/TikTok-Api)
 - **HTTP Requests**: Axios
