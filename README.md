@@ -1,4 +1,4 @@
-# TikTok Follower Scraper
+# TikTok Follower Manager
 
 A full-stack web application that fetches, caches, and sorts follower counts for 40,000 TikTok usernames. Built with **React (Vite)** for a fast, responsive front-end, and **Node.js (Express)** to handle API requests, server-side caching, and rate limit management. This project showcases efficient handling of large datasets, API integration, and high-performance real-time data display.
 
