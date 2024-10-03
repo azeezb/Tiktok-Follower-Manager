@@ -1,12 +1,17 @@
-# Summary of Architecture:
-## Front-End (React/Vite):
+# TikTok Follower Manager
 
-- Fetches sorted data from the back-end.
-- Displays the data efficiently using pagination or lazy loading.
-- Handles user interactions like search, filter, and loading states.
-- Back-End (Node.js/Express):
+A full-stack web application that fetches, caches, and sorts follower counts for 40,000 TikTok usernames. Built with **React (Vite)** for a fast, responsive front-end, and **Node.js (Express)** to handle API requests, server-side caching, and rate limit management. This project showcases efficient handling of large datasets, API integration, and high-performance real-time data display.
 
-# Fetches follower counts from the TikTok API in batches.
-- Handles API rate limits and caching to reduce redundant requests.
-- Sorts the usernames by follower count and serves them to the front-end.
-- Implements a caching layer (Redis) to prevent repeated API calls for the same usernames.
+## Features
+- Fetches follower counts for up to 40,000 TikTok usernames.
+- Efficient API rate-limit handling with batching.
+- Server-side caching using Redis to avoid unnecessary API calls.
+- Real-time sorting and display of usernames by follower count.
+- Built with modern technologies: React, Node.js, Vite, Express, and Redis.
+
+## Tech Stack
+- **Front-end**: React (Vite)
+- **Back-end**: Node.js (Express)
+- **Caching**: Redis
+- **API Integration**: TikTok API or third-party services
+- **HTTP Requests**: Axios
